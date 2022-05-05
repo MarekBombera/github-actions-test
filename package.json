@@ -1,0 +1,23 @@
+{
+  "name": "githubactions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ncc build src/action.js -o dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarekBombera/github-actions-test.git"
+  },
+  "author": "Marek Bombera",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MarekBombera/github-actions-test/issues"
+  },
+  "homepage": "https://github.com/MarekBombera/github-actions-test#readme",
+  "dependencies": {
+    "@vercel/ncc": "^0.33.4"
+  }
+}
