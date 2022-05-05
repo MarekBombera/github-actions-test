@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/MarekBombera/github-actions-test#readme",
   "dependencies": {
+    "@actions/core": "^1.7.0",
+    "@actions/github": "^5.0.1",
     "@vercel/ncc": "^0.33.4"
   }
 }
